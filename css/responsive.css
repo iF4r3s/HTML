@@ -1,0 +1,82 @@
+/*
+    Description: 	Contact
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 768px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 960px) and (max-width: 1199px) {
+        
+		.container-fixed { max-width:768px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+			
+	}
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 768px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        
+		.container-fixed { max-width:768px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+				
+		.form .pre-header-description { padding:25px; }
+		.form .pre-header-description .company-holder { float:none; width:100%; }
+		.form .pre-header-description .company-description { display:none; }
+		.form .pre-header-description .company-holder .company-logo{ text-align:center; margin:0 auto; }
+		
+		.form .header h4 { line-height:22px; }
+		
+		.form .section .error #lastname.input-right{
+			margin:10px 0;
+		}
+	
+	}
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 480px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+		.container-fixed { max-width:420px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+				
+		.form .pre-header-description { padding:25px; }
+		.form .pre-header-description .company-holder { float:none; width:100%; }
+		.form .pre-header-description .company-description { display:none; }
+		.form .pre-header-description .company-holder .company-logo{ text-align:center; margin:0 auto; }
+		
+		.form .header h4 { line-height:22px; }
+		
+		.form .section .error #lastname.input-right{
+			margin:10px 0;
+		}
+		
+    }
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 320px
+	-------------------------------------------------- */
+
+    @media only screen and (max-width: 479px) {
+        
+		.container-fixed { max-width:300px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+		
+		.form .pre-header-description { padding:25px; }
+		.form .pre-header-description .company-holder { float:none; width:100%; }
+		.form .pre-header-description .company-description { display:none; }
+		.form .pre-header-description .company-holder .company-logo{ text-align:center; margin:0 auto; }
+		
+		.form .header h4 { line-height:22px; }
+		
+		.form .section .error #lastname.input-right{
+			margin:10px 0;
+		}
+		
+    }
